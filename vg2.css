@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Marck+Script&display=swap');
+*{
+    margin: 0;
+   padding: 0;
+}
+body{
+    background-color: white;
+}
+#quote{
+    height:20vh;
+    background-color: #1e295b;
+    color: #e1d74e;
+    text-align: center;
+    font-family:'Cinzel', serif;
+    line-height: 40px;
+}
+#quote h1{
+    padding: 30px;
+    font-size:40px;
+}
+#quote p{
+    font-size: 30px;
+    font-style: italic;
+}
+ 
+#button ul{
+    height: 20vh;
+    list-style: none;
+    margin: 20px;
+   
+}
+#button a{
+    background-color: #d6d296;
+    width: 280px;
+    display: block;
+    text-decoration: none;
+    margin:20px 0 0 60px;
+    padding: 50px;
+    float: left;
+    text-align: center;
+    color: #1e295b;
+    border-radius: 100px 100px 100px 100px;
+    font: 500 30px 'Cinzel', serif;
+}
+#button a:hover{
+    border-radius: 200px 200px 200px 200px;
+    height: 50px;
+    padding-top: 60px;
+    margin:10px 0 0 60px;
+    font-size: 35px;
+}
+
+#life,#image,#text{
+    height: 70vh;
+    margin-top: 50px;
+}
+#life div{
+    float: left;
+}
+#image{
+    text-align: center;
+    width: 45%;
+    background-color:white;
+    margin-left: 60px;
+}
+#text{
+    width: 45%;
+    background-color:white;
+    text-align: justify;
+    font: italic 20px/33px 'Cinzel', serif;
+}
+#text h1{
+    color: #e67300;
+    text-align: center;
+    font: italic 100px 40px 'Cinzel', serif;
+}
+#text p{
+    text-indent: 60px;
+    font: italic 200 30px 'Cinzel', serif;
+}
+#text a{
+    text-decoration: none;
+    color: #e67300;
+}
+#i{
+    border-radius: 80px;
+}
+
+#work div{
+     float: left;
+}
+#work,#text1,#image2{
+    height: 85vh;
+    margin-top: 80px;
+}
+#text1{
+    width: 45%;
+    background-color:white;
+    margin-left: 110px;
+}
+#text1 h1{
+    font: italic 40px 'Cinzel', serif;
+    text-align: center;
+    color:#00cccc;
+}
+#text1 p{
+    text-indent: 60px;
+    text-align: justify;
+    font: italic 200 30px/35px 'Cinzel', serif;
+}
+#text1 a{
+ text-decoration:none;
+ color:#00cccc
+}
+#image2{
+    width: 40%;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+#i2{
+    border-radius: 80px;
+}
+
+#film{
+    background-color: #1e295b;
+    text-align: center;
+    margin-top:100px ;
+    padding: 0px 0px;
+    
+}
+#film li{
+    background-color: #1e295b;
+    list-style:none;
+    margin: 60px;
+}
+#film h1{
+    background-color: #d6d296;
+    margin: 0;
+    padding: 30px;
+    color:  #1e295b;
+    text-align: center;
+    font: 50px 'Cinzel', serif ;
+   
+}
+
+#footer{
+    background-color: #1e295b;
+    padding: 20px;
+    color: #e1d74e;
+    text-align: center;
+    font: 20px 'Cinzel', serif ;
+}
